@@ -51,3 +51,10 @@ For example: https://spectralworkbench.org/spectrums/9740
 
 
 Base models are presented in the  spectrum_classify_for_habrahabr.ipynb
+
+
+Если вы предпочитаете .net в папке ".net (cs)", есть небольшая демонстрация на языке C# 
+(однако, она менее информативна чем версия на python)
+
+ If you prefer .net in the ".net (cs)" folder, there is a small demonstration in C # 
+ however, it is less informative than the python version)
