@@ -7,8 +7,9 @@
 2.	2nd classification of luminaries by LIDC  (2nd_class_of_lum_by_LIDC)  
 Анализ кривых сил света (КСС) светильников и автоматическая их классификация.  
   
-This repository is additional material for Bosonbeard articles on the Habrahabr portal - https://habrahabr.ru/users/bosonbeard/posts/   demonstrating examples of the classification of sources of artificial and natural light.  
-Проекты:  
+This repository is additional material for Bosonbeard articles on the Habrahabr portal - https://habrahabr.ru/users/bosonbeard/posts/   demonstrating examples of the classification of sources of artificial and natural light. 
+  
+Projects: 
   
 1.	1st_spectrum_classification (ML_ spectrum_classification). 
 Analysis of the spectral characteristics of lamps and / or daylight and their automatic classification2nd classification of luminaries by LIDC  (2nd_class_of_lum_by_LIDC)  
