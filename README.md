@@ -7,6 +7,6 @@
   
   
 This repository is additional material for bosonbeard articles on the Habrahabr portal - https://habrahabr.ru/users/bosonbeard/posts/
-demonstrating examples of the classification of sources of artificial and natural light.
-  
+demonstrating examples of the classification of sources of artificial and natural light. 
+  
 Attention! the ML_ spectrum_classification project was moved to the 1st_spectrum_classification folder
