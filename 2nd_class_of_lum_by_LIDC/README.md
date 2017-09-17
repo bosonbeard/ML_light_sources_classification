@@ -6,10 +6,14 @@
   Набор данных состоит из тестовой и обучающей выборки, описывающей кривые силы света светильников (КСС).
 КСС разбиты на 19 признаков где значение признака соответствует силе света светильника в направлении соответствующего полярного угла. Все данные взяты относительно азимутального угла - 0 градусов. Значение признака – условная мощность излучения.
 Поле label содержит метку источника света:
-Типы КСС взяты в соответствии с ГОСТ Р 54350-2011 1- Компактная КСС (Тип К);  
+Типы КСС взяты в соответствии с ГОСТ Р 54350-2011  
+  
+1- Компактная КСС (Тип К);    
 2- Глубокая КСС (Тип Г);  
 3- Косинусная (Тип Д);  
 4- Полу широкая (Тип Л);  
+  
+Файлы:    
 train.csv – обучающая выборка;  
 train.csv – обучающая выборка;    
 Также в таблице в столбце files находятся наименования светильников, если вы захотите
@@ -21,11 +25,14 @@ The data set consists of a test and training sample describing the luminous inte
  KCC divided into 19 features where the value of the characteristic corresponds to the light   
  intensity of the lamp in the direction of the corresponding polar angle. All data are taken  
  for the azimuth angle of 0 degrees. Significance value - light power. The label field contains   
- the light source label: Types of LIDC are taken in accordance with GOST R 54350-2011 
+ the light source label: Types of LIDC are taken in accordance with GOST R 54350-2011
+   
  1- Compact LIDC;  
  2- Deep LIDC;  
  3- Cosine LIDC;  
- 4- Semi-wide LIDC;  
+ 4- Semi-wide LIDC; 
+   
+ Files:  
  train.csv - training sample;  
  train.csv - training sample;  
  The lidc_classify_for_habrahabr.pynb file contains an example of implementing a machine classification 
