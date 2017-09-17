@@ -17,17 +17,25 @@ namespace c_sharp_spectrum_classify_for_habr
         static void Main(string[] args)
         {
 
+            //for correct symbol of float point
+            System.Globalization.CultureInfo customCulture = (System.Globalization.CultureInfo)System.Threading.Thread.CurrentThread.CurrentCulture.Clone();
+            customCulture.NumberFormat.NumberDecimalSeparator = ".";
+            System.Threading.Thread.CurrentThread.CurrentCulture = customCulture;
+
             //This is a program for demonstrating machine 
             //learning and classifying the spectrum of light sources using .net
+
 
             //read data (If you use linux do not forget to correct the path to the files)
             string trainCsvFilePath = @"data\train.csv";
             string testCsvFilePath = @"data\test.csv";
             DataTable trainTable = new CsvReader(trainCsvFilePath, true).ToTable();
             DataTable testTable = new CsvReader(testCsvFilePath, true).ToTable();
+ 
+
             // Convert the DataTable to input and output vectors (train and test)
             int[] trainOutputs = trainTable.Columns["label"].ToArray<int>();
-            trainTable.Columns.Remove("label");
+                        trainTable.Columns.Remove("label");
             double[][] trainInputs = trainTable.ToJagged<double>();
             int[] testOutputs = testTable.Columns["label"].ToArray<int>();
             testTable.Columns.Remove("label");
